@@ -519,9 +519,9 @@ textarea.input {
   left: 0;
   z-index: 2;
   position: absolute;
-  background-image: -webkit-gradient(linear, left top, right top, from(#f1ad70), to(#fffdf2));
-  background-image: -o-linear-gradient(left, #f1ad70 0%, #fffdf2 100%);
-  background-image: linear-gradient(to right, #f1ad70 0%, #fffdf2 100%);
+  background: -webkit-gradient(linear, left top, right top, from(#f1ad70), to(#fffdf2));
+  background: -o-linear-gradient(left, #f1ad70 0%, #fffdf2 100%);
+  background: linear-gradient(to right, #f1ad70 0%, #fffdf2 100%);
 }
 
 .qs-datepicker-container:before {
@@ -1159,7 +1159,7 @@ footer {
 }
 
 .fullscrin__navigation .navig .swiper-button-disabled {
-  font-size: 16ox;
+  font-size: 16px;
   color: #FFFFFF;
 }
 
